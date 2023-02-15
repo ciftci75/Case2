@@ -1,0 +1,170 @@
+:root {
+--color-white: hsl(0, 0%, 100%);
+--color-black: hsl(0, 0%, 0%);
+--color-gray: hsl(0, 0%, 55%);
+--color-dark-gray: hsl(0, 0%, 41%);
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    font-size: 15px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+
+.container {
+    background-image: url(images/mobile/image-hero.jpg);
+    width: 45rem;
+    height: 75rem;
+}
+
+.header{
+    width: 100px;
+}
+
+
+.header-title {
+    box-sizing: border-box;
+    border: 3px solid var(--clr-primary-white);
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    color: var(--clr-primary-white);
+    position: absolute;
+    top: 25rem;
+    left: 12rem;
+    z-index: 1;
+    width:20rem;
+    font-family: "Josefin Sans";
+
+}
+.main{
+    width: 35rem;
+}
+
+
+.article-img {
+    display: block;
+    margin: 5rem 10rem;
+    position: relative;
+    width: 80rem;
+    right:5rem ;
+}
+
+.article-title{
+    text-transform: uppercase;
+    color: var(--clr-primary-vdgray);
+    font-size: 50px;
+    font-weight: 300;
+    position:relative;
+    top: 10rem;
+    left: 16.5rem;
+    font-family: "Josefin Sans";
+}
+
+.article-p{
+    text-align: center;
+    position: relative;
+    left: 5rem;
+    font-family: "Alata";
+    font-weight: 400;
+    color: var(--clr-primary-dgray);
+    
+}
+
+.images-title{
+    text-transform: uppercase;
+    letter-spacing: 1.5;
+    text-align: center;
+    padding: 5rem;
+    color: var(--clr-primary-dgray);
+    position: relative;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    
+
+}
+
+.images-list{
+    list-style: none;
+    position: relative;
+    left: 10rem;
+}
+
+.images-list li{
+    list-style-type: none;
+    text-transform: uppercase;
+    color: var(--clr-primary-vdgray);
+    position: inherit;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    letter-spacing: .5rem;
+    position: relative;
+    z-index: 1;
+    padding: 0.5rem;
+
+}
+
+.btn{
+    text-decoration: none;
+    border: 1px solid var(--clr-primary-black);
+    color: var(--clr-primary-black);
+    text-transform: uppercase;
+    width: 10rem;
+    height: 2rem;
+    font-family: "Alata";
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    position: relative;
+    left: 18rem;
+    background-color: var(--clr-primary-white);
+}
+
